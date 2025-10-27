@@ -1,200 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans+Khojki&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Code CLA</title>
   </head>
-  
+
   <body>
-    <header>
-        <div id="header-logo">
-            <img src="assets/logo.svg">
-            <br/>
-            <span>CodeCLA</span>
-            <br/>
-            <a href="">Coding for developers</a>
-            <br/>
-            <button>Join now</button>    
-        </div>
-    </header>
-    
+    <nav>
+      <div id="logo">
+        <img src="assets/logo.svg" />
+        <p>CodeCLA</p>
+      </div>
+      <div id="links">
+        <a href="/signup.html">For Coders</a>
+        <a href="/signup.html">For Developers</a>
+        <button>Join now</button>
+      </div>
+    </nav>
+
     <section id="hero">
-
-        <h1 id="hero-title">The place for Competitive Programmers</h1>
-        <p iid="hero-paragraph">
-            CodeCLa is where programmers participate in programming contest,
-            solve algorithm and data structure challenges and become part of an awesome community
-        </p>
-        <div id="hero-btn">
-            <button id="become-a-coder-button">Become a coder</button> 
-            <button id="become-a-manage-button">Become a manager</button>
-        </div>
-
+      <h1 id="hero-title">The place for Competitive Programmers</h1>
+      <p id="hero-paragraph">
+        CodeCLa is where programmers participate in programming contest, solve
+        algorithm and data structure challenges and become part of an awesome
+        community
+      </p>
+      <div id="hero-btn">
+        <button id="become-a-coder-button">Become a coder</button>
+        <button id="become-a-manager-button">Become a manager</button>
+      </div>
     </section>
-    
+
     <section id="practice-to-level-up">
-        <h1 id="practice-title">Practice to level-up</h1>
-        <p id="practice-paragraph">
-            1K<br/>Problems for practice<br/>100+<br/>10<br/>Programming Languages<br/>130K<br/>Sbumissions
-        </p>
+      <h1 id="practice-title">Practice to level-up</h1>
+      <div class="container">
+        <div>
+          <p>1K<br />Problems for practice</p>
+        </div>
+        <div>
+          <p>100+<br />Coders</p>
+        </div>
+        <div>
+          <p>10<br />Programming Languages</p>
+        </div>
+        <div>
+          <p>130K<br />Submissions</p>
+        </div>
+      </div>
     </section>
 
     <section id="for-coders">
-            <h1 id="for-coders-title">For coders</h1>
-            <h1 id="for-coders-sub-title">What you will gain</h1>
-            <p id="for-coders-info">You are a coder who wants to level up his skills in coding and problem solving? Here is what we provide</p>
-        
-        <div id="for-coders-content">
+      <h2 class="title">For coders</h2>
+      <h1 class="subtitle">What you will <strong>gain</strong></h1>
+      <p>
+        You are a coder who wants to level up his skills in coding and problem
+        solving? Here is what we provide
+      </p>
 
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Rich practice set of problems</span>
-                <br/>
-                <span>Access a rich library of problems, algorithms, data structures to enhance your skills</span>
-            </div>
-            
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Universal contests</span>
-                <br/>
-                <span>Compete in regularly schudeled contests against top talent from around the globe</span>
-            </div>
-
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Contest feedback</span>
-                <br/>
-                <span>Receive personalised insights and feedback to improve your problem-sovling abilities</span>
-            </div>
-
-            <dv>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Sharing is caring</span>
-                <br/>
-                <span>Connect with like-minded individuals, form teams, and tackle challenges together</span>
-            </dv>
-
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Track your problems and climb the ranks of the leaderboard</span>
-            </div>
-
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Detailed solutions for problems</span>
-                <br/>
-                <button id="join-coders-community">Join coders community</button>
-                <br/>
-            </div>
-            
+      <div class="container">
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>
+            <strong>Practice set of problems</strong><br />
+            Access a rich library of problems, algorithms, data structures to
+            enhance your skills
+          </p>
         </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>
+            <strong>Contests</strong><br />
+            Compete in regularly schudeled contests against top talent from
+            around the globe
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>
+            <strong>Feedback</strong><br />
+            Receive personalised insights and feedback to improve your
+            problem-sovling abilities
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>
+            <strong>Sharing is caring</strong><br />
+            Connect with like-minded individuals, form teams, and tackle
+            challenges together
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>
+            <strong
+              >Track your problems and climb the ranks of the
+              leaderboard</strong
+            >
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p><strong>Detailed solutions for problems</strong></p>
+        </div>
+      </div>
+
+      <button id="join-coders-community">Join coders community</button>
     </section>
 
     <section id="for-managers">
+      <h2 class="title">For managers</h2>
+      <h1 class="subtitle">
+        Access <strong>high-professional</strong> platform for coding challenges
+        design
+      </h1>
 
-            <h1 id="for-managers-title">For managers</h1>
-            <h1 id="for-managers-sub-title">Access high-professional for coding challenges design</h1>
-        
-        <div id="for-managers-content">
-            
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Craft tailored coding challenges sutied to your specific need and objectives</span>
-            </div>
-            
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Design challenges that align perfectly with your recruitment criteria</span>
-            </div>
-
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Choose from a wide range of problem types including algorithmic, data stuctures, puzzles and more</span>
-                <br/>
-            </div>
-
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Ergonomic tools for challenge design</span>
-            </div>
-
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Collaborate with colleagues or peers in creating and refining coding challenges</span>
-
-            </div>
-
-            <div>
-                <img src="assets/ok.svg">
-                <br/>
-                <span>Access dedicated support from our team of experts</span>
-                <br/>
-                <button id="join-coders-community">Join coders community</button>
-                <br/>
-                <img src="assets/logo.svg">
-            </div>
-
+      <div class="container">
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>
+            Craft tailored coding challenges sutied to your specific need and
+            objectives
+          </p>
         </div>
-    </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>
+            Design challenges that align perfectly with your recruitment
+            criteria
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>
+            Choose from a wide range of problem types including algorithmic,
+            data stuctures, puzzles and more
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>Ergonomic tools for challenge design</p>
+        </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>
+            Collaborate with colleagues or peers in creating and refining coding
+            challenges
+          </p>
+        </div>
+
+        <div class="item">
+          <img src="assets/ok.svg" />
+          <p>Access dedicated support from our team of experts</p>
+        </div>
+      </div>
+      <button id="join-coders-community">Join coders community</button>
+    </section>
 
     <section id="brought-you">
-        <h1>Brought you to CLA</h1>
+      <div class="bg">
+        <img src="assets/team.svg" alt="teams pic" />
+      </div>
+      <div class="content">
+        <img src="assets/logo.svg" />
+        <h3>Brought you to CLA</h3>
         <p>
-            Join the Ultimate Hub for Competitive Programmers and reach growth and excellence in competitive programming.
+          Join the Ultimate Hub for Competitive Programmers and reach growth and
+          excellence in competitive programming.
+          <br />
+          Coding challenges is made simple by our platform. Access a dashboard
+          of tools for high-quality challenge design.
         </p>
-        <p>
-            Coding challenges is made simple by our platform. Access a dashboard of tools for high-quality challenge design.
-        </p>
-
+      </div>
     </section>
 
     <section id="testimonials">
-        <h1>Testimonials</h1>
+      <h1>Testimonials</h1>
+      <div class="card">
+        <!-- <p>
+          This guy is an amazing frontend developer that delivered the task
+          exactly how we need it, do yourself a favour and hire him, you will
+          not be disappointed by the work delivered. He will go the extra mile
+          to make sure that you are happy with your project. I will sure work
+          again with him!
+        </p> -->
         <p>
-            This guy is an amazing frontend developer that delivered the task exactly how we need it, do yourself a favour and hire him,
-            you will not be disappointed by the work delivered. He will go the extra mile to make sure that you are happy with your project. I will sure work again with him!
+          This platform is an absolute game-changer for competitive programmers.
+          The extensive range of problems and challenges offered here truly
+          hones your skills and prepares you for any coding competition. With
+          detailed solutions and an active community, it's the perfect
+          environment to sharpen your coding prowess.
         </p>
-        <img src="https://randomuser.me/api/portraits/women/44.jpg">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" />
         <h3>June Cha</h3>
         <span>Software Engineer</span>
-        <p>
-            This platform is an absolute game-changer for competitive programmers. The
-            extensive range of problems and challenges offered here truly hones your skills
-            and prepares you for any coding competition. With detailed solutions and an
-            active community, it's the perfect environment to sharpen your coding
-            prowess.
-        </p>
+      </div>
     </section>
 
     <section id="contact-us">
-        <h1>Contact us</h1>
-        <form action="/form.hmtl" method="post">
-            <lable for="name">Name</lable><br/>
-            <input type="text" id="name" name="name" placeholder="Your Name"><br/>
-            <label for="email">Email</label><br/>
-            <input type="email" id="email" name=">email" placeholder="Your email"><br/>
-            <label for="message">Message</label><br/>
-            <textarea id="message" name="massage" placeholder="Your message"></textarea><br/>
-            <input type="submit" value="Submit">
-        </form>
+      <h1>Contact us</h1>
+      <form action="/form.hmtl" method="post">
+        <lable for="name">Name</lable><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+        /><br />
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          name=">email"
+          placeholder="Your Email"
+        /><br />
+        <label for="message">Message</label><br />
+        <textarea
+          id="message"
+          name="massage"
+          placeholder="Your message"
+        ></textarea
+        ><br />
+        <button type="submit">Submit</button>
+      </form>
+      <p>
+        &#169; 2024 Your Competitive Programming Platform. All Rights Reserved
+      </p>
     </section>
-    <footer>
-        <p>
-            &#169; 2024 Your Competitive Programming Platform. All Rights Reserved
-        </p>
-    </footer>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans+Khojki&display=swap"
+      rel="stylesheet"
+    />
     <title>Code CLA</title>
   </head>
-  
+
   <body>
-    <header>
-        <img src="assets/coding.png">
-    </header>
+    <div class="form-pages">
+      <div class="image">
+        <img src="assets/coding.png" />
+      </div>
 
-    <h1>Login Now!</h1>
-
-    <section id="sign-in-form">
+      <div class="sign-in-form">
+        <h3>Login Now!</h3>
 
         <form action="signinform.html" method="post">
-            <input type="email" id="sign-up-email" name="sign-up-email" placeholder="Email">
-            <input type="password" id="sign-up-password" name="sign-up-password" placeholder="Password">
-            <input type="submit" value="Sign In">
+          <input
+            type="email"
+            id="sign-up-email"
+            name="sign-up-email"
+            placeholder="Email"
+          />
+          <input
+            type="password"
+            id="sign-up-password"
+            name="sign-up-password"
+            placeholder="Password"
+          />
+          <button type="submit">Login</button>
         </form>
 
-        <span>New to CodeCLA</span>
-        <a href="/signup.html">Login</a>
-    </section>
+        <span>New to CodeCLA. <a href="/signup.html">Signup</a></span>
+      </div>
+    </div>
   </body>
+</html>
