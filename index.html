@@ -196,56 +196,77 @@
     <section id="testimonials">
       <h1>Testimonials</h1>
       <div class="card">
-        <!-- <p>
-          This guy is an amazing frontend developer that delivered the task
-          exactly how we need it, do yourself a favour and hire him, you will
-          not be disappointed by the work delivered. He will go the extra mile
-          to make sure that you are happy with your project. I will sure work
-          again with him!
-        </p> -->
-        <p>
+        <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+        <p id="para">
           This platform is an absolute game-changer for competitive programmers.
           The extensive range of problems and challenges offered here truly
           hones your skills and prepares you for any coding competition. With
           detailed solutions and an active community, it's the perfect
           environment to sharpen your coding prowess.
         </p>
-        <img src="https://randomuser.me/api/portraits/women/44.jpg" />
-        <h3>June Cha</h3>
-        <span>Software Engineer</span>
+        <img
+          id="arrow-left"
+          class="arrow left"
+          src="assets/arrow.svg"
+          alt="arrow image"
+        />
+        <img
+          id="arrow-right"
+          class="arrow right"
+          src="assets/arrow.svg"
+          alt="arrow image"
+        />
+        <img
+          id="profile-pic"
+          src="https://randomuser.me/api/portraits/women/44.jpg"
+        />
+        <h3 id="testimonials-name">June Cha</h3>
+        <p id="job-title">Software Engineer</p>
+        <p id="dots">
+          <span class="dot active">•</span>
+          <span class="dot">•</span>
+          <span class="dot">•</span>
+          <span class="dot">•</span>
+          <span class="dot">•</span>
+        </p>
       </div>
     </section>
 
     <section id="contact-us">
       <h1>Contact us</h1>
-      <form action="/form.hmtl" method="post">
-        <lable for="name">Name</lable><br />
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Your Name"
-        /><br />
-        <label for="email">Email</label><br />
-        <input
-          type="email"
-          id="email"
-          name=">email"
-          placeholder="Your Email"
-        /><br />
-        <label for="message">Message</label><br />
-        <textarea
-          id="message"
-          name="massage"
-          placeholder="Your message"
-        ></textarea
-        ><br />
-        <button type="submit">Submit</button>
+      <form id="contact-form" action="/" method="get">
+        <div>
+          <lable for="name">Name</lable>
+          <input type="text" id="name" name="name" placeholder="Your Name" />
+          <p id="name-error" class="error hidden">Name is Required</p>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name=">email"
+            placeholder="Your Email"
+          />
+          <p id="email-error" class="error hidden">Email is Required</p>
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="massage"
+            placeholder="Your message"
+          ></textarea>
+          <p id="message-error" class="error hidden">Message is Required</p>
+        </div>
+        <button id="contact-btn" type="submit">Submit</button>
       </form>
-      <p>
+      <p id="copyright-date">
         &#169; 2024 Your Competitive Programming Platform. All Rights Reserved
       </p>
     </section>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
