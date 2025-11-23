@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans+Khojki&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Code CLA</title>
+  </head>
+
+  <body class="bg-cla-white">
+    <nav class="bg-cla-white sticky top-0 h-32 sm:h-12">
+      <div
+        class="flex flex-col items-center justify-center sm:flex-row sm:justify-between mx-32 h-full"
+      >
+        <div id="logo" class="flex w-7 mb-4 sm:mb-0">
+          <img src="assets/logo.svg" />
+          <p class="content-center font-noto font-semibold">CodeCLA</p>
+        </div>
+        <div id="links" class="flex gap-5 sm:gap-3 content-center">
+          <a
+            href="/public/signup.html"
+            class="content-center font-noto sm:text-sm text-cla-light-grey text-base hover:text-cla-primary transition-colors"
+            >For Coders</a
+          >
+          <a
+            href="/public/signin.html"
+            class="content-center font-noto text-cla-light-grey text-base sm:text-sm hover:text-cla-primary transition-colors"
+            >For Developers</a
+          >
+          <div class="content-center">
+            <button
+              class="bg-cla-primary text-cla-white sm:text-sm text-base p-2 px-6 rounded-lg hover:bg-cla-white hover:text-cla-primary hover:outline hover:outline-1 transition-colors"
+            >
+              Join now
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <img
+      src="assets/bg.svg"
+      alt="background-image"
+      class="absolute -z-50 w-full"
+    />
+    <section id="hero ">
+      <h1
+        id="hero-title"
+        class="font-martel text-5xl sm:text-4xl font-extrabold text-center mt-32 mb-12 mx-12"
+      >
+        The place for Competitive Programmers
+      </h1>
+      <p id="hero-paragraph" class="text-center sm:text-sm mb-6 mx-16">
+        CodeCLa is where programmers participate in programming contest, solve
+        algorithm and data structure challenges and become part of an awesome
+        community
+      </p>
+      <div id="hero-btn" class="flex justify-center gap-7 sm:gap-5 mb-56">
+        <button
+          id="become-a-coder-button"
+          class="bg-cla-primary text-cla-white sm:text-sm p-2 px-6 rounded-lg hover:bg-cla-white hover:text-cla-primary hover:outline hover:outline-1 transition-colors"
+        >
+          Become a coder
+        </button>
+        <button
+          id="become-a-manager-button"
+          class="bg-cla-white text-cla-primary sm:text-sm p-2 px-6 rounded-lg outline outline-1 hover:bg-cla-primary hover:text-cla-white hover:outline-none transition-colors"
+        >
+          Become a manager
+        </button>
+      </div>
+    </section>
+
+    <section id="practice-to-level-up">
+      <h4
+        id="practice-title"
+        class="text-cla-primary font-martel font-bold text-4xl sm:text-2xl text-center mb-4 sm:mb-2"
+      >
+        Practice to level-up
+      </h4>
+      <div
+        class="grid grid-cols-2 grid-rows-2 mx-10 sm:mx-72 gap-x-6 gap-y-3 mb-24"
+      >
+        <div
+          class="w-full h-24 shadow-xl bg-white flex justify-center items-center rounded-md"
+        >
+          <p class="text-center font-semibold text-cla-light-grey sm:text-sm">
+            1K<br />Problems for practice
+          </p>
+        </div>
+        <div
+          class="w-full h-24 shadow-xl bg-white flex justify-center items-center rounded-md"
+        >
+          <p class="text-center font-semibold text-cla-light-grey sm:text-sm">
+            100+<br />Coders
+          </p>
+        </div>
+        <div
+          class="w-full h-24 shadow-xl bg-white flex justify-center items-center rounded-md"
+        >
+          <p class="text-center font-semibold text-cla-light-grey sm:text-sm">
+            10<br />Programming Languages
+          </p>
+        </div>
+        <div
+          class="w-full h-32 shadow-xl bg-white flex justify-center items-center rounded-md"
+        >
+          <p
+            class="text-center font-semibold text-cla-light-grey sm:text-sm -translate-y-3"
+          >
+            130K<br />Submissions
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="for-coders" class="mx-8">
+      <h4
+        class="text-cla-primary text-3xl sm:text-2xl translate-y-6 sm:translate-y-0 font-extrabold font-martel sm:mb-4"
+      >
+        For coders
+      </h4>
+      <h3
+        class="font-noto font-extrabold text-8xl leading-normal sm:text-4xl mb-4"
+      >
+        What you will <strong class="text-cla-primary font-bold">gain</strong>
+      </h3>
+      <p class="text-cla-light-grey font-semibold sm:text-sm mb-6">
+        You are a coder who wants to level up his skills in coding and problem
+        solving? Here is what we provide
+      </p>
+
+      <div
+        class="grid grid-cols-1 grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 gap-4 mb-6"
+      >
+        <div
+          class="bg-cla-white w-full flex shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            <strong class="font-medium">Rich practice set of problems</strong
+            ><br />
+            Access a rich library of problems, algorithms, data structures to
+            enhance your skills
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            <strong class="font-medium">Contests</strong><br />
+            Compete in regularly schudeled contests against top talent from
+            around the globe
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            <strong class="font-medium">Feedback</strong><br />
+            Receive personalised insights and feedback to improve your
+            problem-sovling abilities
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            <strong class="font-medium">Sharing is caring</strong><br />
+            Connect with like-minded individuals, form teams, and tackle
+            challenges together
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex items-center shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            <strong class="font-medium"
+              >Track your problems and climb the ranks of the
+              leaderboard</strong
+            >
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex items-center shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            <strong class="font-medium">Detailed solutions for problems</strong>
+          </p>
+        </div>
+      </div>
+
+      <button
+        id="join-coders-community"
+        class="bg-cla-primary text-cla-white sm:text-sm p-2 px-6 rounded-lg mb-24 hover:bg-cla-white hover:text-cla-primary hover:outline hover:outline-1 transition-colors"
+      >
+        Join coders community
+      </button>
+    </section>
+
+    <section id="for-managers" class="mx-8">
+      <h4
+        class="text-cla-primary text-3xl translate-y-6 sm:translate-y-0 sm:text-2xl font-bold font-martel mb-4"
+      >
+        For managers
+      </h4>
+      <h3
+        class="font-martel font-extrabold leading-normal text-7xl sm:text-4xl mb-4"
+      >
+        Access
+        <strong class="text-cla-primary font-bold">high-professional</strong>
+        platform for coding challenges design
+      </h3>
+
+      <div
+        class="grid grid-cols-1 grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 gap-4 mb-6"
+      >
+        <div
+          class="bg-cla-white w-full flex items-center shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            Craft tailored coding challenges sutied to your specific need and
+            objectives
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex items-center shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            Design challenges that align perfectly with your recruitment
+            criteria
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex items-center shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            Choose from a wide range of problem types including algorithmic,
+            data stuctures, puzzles and more
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex items-center shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            Ergonomic tools for challenge design
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex items-center shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            Collaborate with colleagues or peers in creating and refining coding
+            challenges
+          </p>
+        </div>
+
+        <div
+          class="bg-cla-white w-full flex items-center shadow-md rounded-md p-4 gap-4 border"
+        >
+          <img src="assets/ok.svg" />
+          <p class="text-cla-light-grey">
+            Access dedicated support from our team of experts
+          </p>
+        </div>
+      </div>
+      <button
+        id="join-coders-community"
+        class="bg-cla-primary text-cla-white sm:text-sm p-2 px-6 rounded-lg mb-20 hover:bg-cla-white hover:text-cla-primary hover:outline hover:outline-1 transition-colors"
+      >
+        Join coders community
+      </button>
+    </section>
+
+    <section
+      id="brought-you"
+      class="flex flex-col items-center sm:flex-row sm:gap-12 sm:mb-8 mb-32 sm:mr-8 mx-8"
+    >
+      <div
+        class="object-none sm:object-contain sm:h-[600px] sm:w-auto h-96 w-96 rounded-[60px] sm:rounded-r-[100px] overflow-hidden"
+      >
+        <img
+          src="assets/team.svg"
+          alt="teams pic"
+          class="sm:-translate-x-[100px] sm:relative"
+        />
+      </div>
+
+      <div class="sm:w-[475px] mx-8 sm:mx-0">
+        <img
+          src="assets/logo.svg"
+          alt="cla logo"
+          class="mb-10 mx-auto sm:mx-0"
+        />
+        <h3
+          class="font-bold text-4xl sm:text-3xl mb-6 tracking-wide text-center sm:text-center"
+        >
+          Brought you to CLA
+        </h3>
+        <p
+          class="sm:text-left text-center text-base sm:text-sm leading-8 sm:leading-6"
+        >
+          Join the Ultimate Hub for Competitive Programmers and reach growth and
+          excellence in competitive programming.
+          <br />
+          Coding challenges is made simple by our platform. Access a dashboard
+          of tools for high-quality challenge design.
+        </p>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h3
+        class="text-center text-5xl sm:text-3xl font-bold text-cla-primary mb-8"
+      >
+        Testimonials
+      </h3>
+      <div
+        class="bg-white sm:w-[500px] mx-16 sm:mx-auto p-10 px-20 relative rounded-xl mb-12"
+      >
+        <p class="text-center mb-6 text-xs">
+          &#9733; &#9733; &#9733; &#9733; &#9733;
+        </p>
+        <p id="para" class="text-center text-sm h-48 font-medium">
+          This platform is an absolute game-changer for competitive programmers.
+          The extensive range of problems and challenges offered here truly
+          hones your skills and prepares you for any coding competition. With
+          detailed solutions and an active community, it's the perfect
+          environment to sharpen your coding prowess.
+        </p>
+
+        <img
+          id="arrow-left"
+          class="shadow rotate-180 w-5 absolute left-7 top-1/2"
+          src="assets/arrow.svg"
+          alt="arrow image"
+        />
+        <img
+          id="arrow-right"
+          class="shadow w-5 absolute top-1/2 right-7"
+          src="assets/arrow.svg"
+          alt="arrow image"
+        />
+        <img
+          id="profile-pic"
+          src="https://randomuser.me/api/portraits/women/44.jpg"
+          class="rounded-full size-12 mx-auto mb-5"
+        />
+        <h3 id="testimonials-name" class="text-center text-sm mb-1">
+          June Cha
+        </h3>
+        <p id="job-title" class="text-center text-xs mb-6">Software Engineer</p>
+        <p id="dots" class="text-center text-sm">
+          <span class="dot text-cla-light-grey">•</span>
+          <span class="dot">•</span>
+          <span class="dot">•</span>
+          <span class="dot">•</span>
+          <span class="dot">•</span>
+        </p>
+      </div>
+    </section>
+
+    <section id="contact-us" class="bg-cla-main-body rounded-tl-[100px]">
+      <div class="mx-12 pt-16">
+        <h5 class="text-white font-semibold text-4xl sm:text-2xl mb-8">
+          Contact us
+        </h5>
+        <form id="contact-form" action="/" method="get">
+          <div class="flex flex-col mb-4">
+            <label for="name" class="text-white mb-2">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              class="h-8 sm:w-1/2 rounded-md pl-4 text-sm"
+            />
+            <p id="name-error" class="error hidden text-red-600">
+              Name is Required
+            </p>
+          </div>
+          <div class="flex flex-col mb-4">
+            <label for="email" class="text-white mb-2">Email</label>
+            <input
+              type="email"
+              id="email"
+              name=">email"
+              placeholder="Your Email"
+              class="h-8 sm:w-1/2 rounded-md pl-4 text-sm"
+            />
+            <p id="email-error" class="error hidden text-red-600">
+              Email is Required
+            </p>
+          </div>
+
+          <div class="flex flex-col mb-4">
+            <label for="message" class="text-white mb-2">Message</label>
+            <textarea
+              id="message"
+              name="massage"
+              placeholder="Your Message"
+              class="h-48 sm:w-1/2 rounded-md pl-4 pt-4 text-sm"
+            ></textarea>
+            <p id="message-error" class="error hidden text-red-600">
+              Message is Required
+            </p>
+          </div>
+          <button
+            id="contact-btn"
+            type="submit"
+            class="mb-14 bg-cla-primary text-cla-white sm:text-sm p-2 px-6 rounded-lg hover:bg-cla-white hover:text-cla-primary hover:outline hover:outline-1 transition-colors"
+          >
+            Submit
+          </button>
+        </form>
+        <p id="copyright-date" class="text-center text-white mx-32">
+          &#169; 2024 Your Competitive Programming Platform. All Rights Reserved
+        </p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

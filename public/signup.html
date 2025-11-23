@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans+Khojki&display=swap"
+      rel="stylesheet"
+    />
+    <title>Code CLA</title>
+  </head>
+
+  <body>
+    <div class="flex">
+      <div class="flex justify-center items-center bg-cla-main-body h-[100vh] w-1/2">
+        <img src="assets/coding.png" class="size-72"/>
+      </div>
+
+      <div class="bg-cla-white flex justify-center items-center w-1/2">
+        <div class="bg-white w-2/3 p-10">
+          <h3 class="text-cla-primary text-center font-semibold text-2xl mb-8">Join Coders Now!</h3>
+  
+          <form action="signupform.html" method="post" class="">
+              <input
+                type="text"
+                id="sign-up-first-name"
+                name="sign-up-first-name"
+                placeholder="First Name"
+                class="block bg-cla-main-body w-full h-10 pl-4 mb-4 text-white text-sm rounded-md"
+              />
+              <input
+                type="text"
+                id="sign-up-last-name"
+                name="sign-up-last-name"
+                placeholder="Last Name"
+                class="block bg-cla-main-body w-full h-10 pl-4 mb-4 text-white text-sm rounded-md"
+              />
+              <input
+                type="email"
+                id="sign-up-email"
+                name="sign-up-email"
+                placeholder="Email"
+                class="block bg-cla-main-body w-full h-10 pl-4 mb-4 text-white text-sm rounded-md"
+              />
+              <input
+                type="password"
+                id="sign-up-password"
+                name="sign-up-password"
+                placeholder="Password"
+                class="block bg-cla-main-body w-full h-10 pl-4 mb-4 text-white text-sm rounded-md"
+              />
+              <button type="submit" class="block w-full h-10 text-white text-center bg-blue-500 rounded-md hover:text-blue-500 hover:bg-white hover:outline hover:outline-2 hover:outline-blue-500 transition-colors mb-4">Sign Up</button>
+            </form>
+            <p class="text-center">Already have an account? <a href="/signin.html" class="text-cla-primary">Login</a></p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
